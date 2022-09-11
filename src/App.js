@@ -1,12 +1,10 @@
 import React from "react";
-import NotesList from "./components/NotesList";
+import { NotesList } from "./components/NotesList";
 
-const App = () => {
+export const App = () => {
   return (
     <div className="container">
       <NotesList />
     </div>
   );
 };
-
-export default App;
